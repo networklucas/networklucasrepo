@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "large",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "standard",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "large",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "standard",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "large",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "standard",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "large",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "standard",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "large",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "standard",
+      "overflow": false,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "overflow": false,
+      "clipped": []
+    }
+  ],
+  "externalModelCalls": 0,
+  "flows": [
+    "loose chats saved automatically",
+    "history after reload",
+    "accent-insensitive search",
+    "resume with original messages and sources",
+    "project context preserved",
+    "filters",
+    "backup and restore in another profile",
+    "delete loose chat persists"
+  ],
+  "errors": []
+}

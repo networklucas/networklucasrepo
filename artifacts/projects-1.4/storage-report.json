@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "flows": [
+    "quota failure keeps work in memory",
+    "per-project export after quota failure",
+    "concurrent-tab conflict prevents overwrite"
+  ],
+  "externalModelCalls": 0
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-09",
+  "url": "https://copiloto-produto.vercel.app/",
+  "deploymentId": "dpl_7KdwxSZHRtJaCB6AHyKE7hsSQkR6",
+  "target": "production",
+  "status": "READY",
+  "validatedPreviewId": "dpl_H7GPWWJrvJQcPPvxrMEJ2prjPXX7",
+  "checks": {
+    "alias": "verified",
+    "browser": "verified",
+    "typecheck": "passed",
+    "build": "passed",
+    "priorLocalTests": 45,
+    "priorLiveScenarios": 6,
+    "liveScenariosRepeated": false
+  },
+  "protection": {
+    "enabled": true,
+    "deploymentType": "all"
+  },
+  "runtimeErrorCheck": "## Runtime Log Counts\n\n**Project:** prj_ZOWieDPiXVs3WEgY9b570Ym8Tal9\n**Grouped by:** level\n**Showing:** Top 25 groups by log count; this may omit other groups.\n\n| level | count |\n|---|---|"
+}

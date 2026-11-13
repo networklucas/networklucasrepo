@@ -1,0 +1,596 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 9.719838769368888
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 9.719838769368888
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "large",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 9.719838769368888
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "large",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 9.719838769368888
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "standard",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "standard",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "large",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "large",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "large",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "large",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "standard",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "standard",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "large",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "large",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "large",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "large",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "standard",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "standard",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "large",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "large",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "large",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "large",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 10.412028440690872
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 8.262347312139074
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "standard",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "standard",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "view": "Conversar",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "view": "Trilha de resolução de problemas",
+      "overflow": false,
+      "issues": [],
+      "minimum": 7.486245829447108
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": [],
+      "minimum": 6.856623717927079
+    }
+  ],
+  "flows": [
+    "create with name and objective",
+    "shared memory across conversations",
+    "memory failure explicit fallback",
+    "project isolation",
+    "per-project export and cross-profile import",
+    "v1 IndexedDB migration",
+    "adaptive path revision",
+    "explicit validation and resolution",
+    "standalone path to project",
+    "six real PDF routes and ranges",
+    "monochrome contrast and mobile"
+  ],
+  "externalModelCalls": 0,
+  "errors": []
+}

@@ -1,0 +1,17 @@
+{
+  "unitTests": 46,
+  "protectionHelperCleanup": "revoked-and-confirmed-2026-11-10",
+  "originPages": 2266,
+  "url": "https://copiloto-produto.vercel.app/",
+  "deploymentId": "dpl_GJvDNMnHgCWyxyUTqdUQD82XG4tA",
+  "state": "READY",
+  "version": "1.2",
+  "visualProfiles": 2,
+  "books": 6,
+  "liveNewSourceCheck": {
+    "durationMs": 3408,
+    "passed": true
+  },
+  "remainingAutomationTokens": 0,
+  "deploymentProtection": "all"
+}

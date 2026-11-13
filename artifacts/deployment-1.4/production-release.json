@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-11",
+  "version": "1.4",
+  "url": "https://copiloto-produto.vercel.app/",
+  "deploymentId": "dpl_8x7ETC3D5wWTuEGVa54uaHTmExrk",
+  "target": "production",
+  "state": "READY",
+  "projectId": "prj_ZOWieDPiXVs3WEgY9b570Ym8Tal9",
+  "protection": {
+    "enabled": true,
+    "deploymentType": "all"
+  },
+  "checks": {
+    "unitTests": 67,
+    "alias": "verified",
+    "remoteTypecheck": "passed",
+    "remoteBuild": "passed",
+    "liveBookSourceCheck": "passed",
+    "privatePdfsReconstructedWithSha256": 6
+  },
+  "sourceFiles": 180
+}

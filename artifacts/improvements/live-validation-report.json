@@ -1,0 +1,735 @@
+{
+  "completedAt": "2026-11-09",
+  "preview": {
+    "id": "dpl_H7GPWWJrvJQcPPvxrMEJ2prjPXX7",
+    "url": "https://copiloto-produto-7b8o9acrr-wayne-enterprise3.vercel.app",
+    "status": "READY"
+  },
+  "localTests": {
+    "passed": 45,
+    "typecheck": "passed"
+  },
+  "liveTests": {
+    "api": [
+      {
+        "type": "CHAT_ROUTE_CHECK",
+        "caseId": "two_distinct_quick",
+        "mode": "quick",
+        "provider": "Gemini 3.5 Flash Lite",
+        "publicationMs": 6001,
+        "durationMs": 6002,
+        "historyMessages": 0,
+        "sourceKinds": [
+          "skill",
+          "book"
+        ],
+        "checks": {
+          "completed": true,
+          "nonEmpty": true,
+          "sourcesMatch": true,
+          "hiddenUntilValidated": true,
+          "bothSubjects": true
+        },
+        "passed": true
+      },
+      {
+        "type": "CHAT_ROUTE_CHECK",
+        "caseId": "subject_change_combined",
+        "mode": "quick",
+        "provider": "Gemini 3.5 Flash Lite",
+        "publicationMs": 4578,
+        "durationMs": 4578,
+        "historyMessages": 2,
+        "sourceKinds": [
+          "skill",
+          "book"
+        ],
+        "checks": {
+          "completed": true,
+          "nonEmpty": true,
+          "sourcesMatch": true,
+          "hiddenUntilValidated": true,
+          "combinesSources": true,
+          "newSubject": true
+        },
+        "passed": true
+      },
+      {
+        "type": "CHAT_ROUTE_CHECK",
+        "caseId": "two_distinct_deep",
+        "mode": "deep",
+        "provider": "Gemini 3.5 Flash Lite",
+        "publicationMs": 11880,
+        "durationMs": 11880,
+        "historyMessages": 4,
+        "sourceKinds": [
+          "skill",
+          "book"
+        ],
+        "checks": {
+          "completed": true,
+          "nonEmpty": true,
+          "sourcesMatch": true,
+          "hiddenUntilValidated": true,
+          "bothSubjects": true
+        },
+        "passed": true
+      },
+      {
+        "type": "CHAT_ROUTE_CHECK",
+        "caseId": "short_followup",
+        "mode": "quick",
+        "provider": "Gemini 3.5 Flash Lite",
+        "publicationMs": 5854,
+        "durationMs": 5854,
+        "historyMessages": 6,
+        "sourceKinds": [
+          "book"
+        ],
+        "checks": {
+          "completed": true,
+          "nonEmpty": true,
+          "sourcesMatch": true,
+          "hiddenUntilValidated": true,
+          "retainsSubject": true
+        },
+        "passed": true
+      }
+    ],
+    "verifier": [
+      {
+        "type": "LIVE_VERIFIER_EVAL",
+        "caseId": "supported_claim",
+        "passed": true,
+        "durationMs": 788
+      },
+      {
+        "type": "LIVE_VERIFIER_EVAL",
+        "caseId": "unsupported_claim_valid_id",
+        "passed": true,
+        "durationMs": 5984
+      }
+    ],
+    "summary": {
+      "type": "CHAT_ROUTE_SUMMARY",
+      "passed": 4,
+      "completed": 4,
+      "total": 4
+    }
+  },
+  "ui": {
+    "authenticatedBrowser": "Opera",
+    "theme": "dark",
+    "textSize": "large",
+    "verified": true
+  },
+  "production": {
+    "id": "dpl_ERttUtCy5KS8ajPt7pnUfW2tUdBH",
+    "unchanged": true,
+    "protection": {
+      "enabled": true,
+      "deploymentType": "all"
+    },
+    "buildCommandUnchanged": true
+  },
+  "priorRuns": [
+    {
+      "id": "dpl_9E99EZ2MQffu8zWf3SuuSm3Eayfx",
+      "url": "copiloto-produto-8zlimkmez-wayne-enterprise3.vercel.app",
+      "state": "ERROR",
+      "summaries": [
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "rice_missing_inputs",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 3864,
+          "publicationMs": 3864,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "missingInputs": true,
+            "noNumericRanking": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "positioning_missing_competitor",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 6784,
+          "publicationMs": 6784,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "asksContext": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "prd_sparse_context",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 6893,
+          "publicationMs": 6893,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill",
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "contextBeforePRD": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "ai_feature_launch",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 6267,
+          "publicationMs": 6266,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill",
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "qualityAndEconomics": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "simple_reversible_decision",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 4660,
+          "publicationMs": 4660,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "proportionateDecision": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "decision_tradeoff",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 7075,
+          "publicationMs": 7075,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill",
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "costAndCriteria": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "two_distinct_questions",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 4175,
+          "publicationMs": 4175,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill",
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "bothSubjects": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "two_distinct_questions_deep",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 26627,
+          "publicationMs": 26627,
+          "providerCalls": 4,
+          "revisions": 1,
+          "historyMessages": 0,
+          "sourceKinds": [],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": false,
+            "bothSubjects": false
+          },
+          "passed": false
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "conversation_seed",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 2942,
+          "publicationMs": 2942,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "subject_change",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 4962,
+          "publicationMs": 4962,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 2,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "newSubject": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "short_followup",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 7751,
+          "publicationMs": 7751,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 4,
+          "sourceKinds": [
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "retainsSubject": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "concept_only",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 5762,
+          "publicationMs": 5762,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "sourceKind": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "book_only",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 12574,
+          "publicationMs": 12574,
+          "providerCalls": 4,
+          "revisions": 1,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "sourceKind": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "combined_sources",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 5438,
+          "publicationMs": 5438,
+          "providerCalls": 2,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "combinesSources": false
+          },
+          "passed": false
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "no_evidence",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 0,
+          "publicationMs": 0,
+          "providerCalls": 0,
+          "revisions": 0,
+          "historyMessages": 0,
+          "sourceKinds": [],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "abstains": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_VERIFIER_EVAL",
+          "caseId": "supported_claim",
+          "passed": true,
+          "durationMs": 621
+        },
+        {
+          "type": "LIVE_VERIFIER_EVAL",
+          "caseId": "unsupported_claim_valid_id",
+          "passed": true,
+          "durationMs": 807
+        },
+        {
+          "type": "LIVE_VERIFIER_EVAL",
+          "caseId": "invented_citation",
+          "passed": true,
+          "durationMs": 755
+        },
+        {
+          "type": "LIVE_EVAL_SUMMARY",
+          "completed": 15,
+          "passed": 13,
+          "total": 15
+        }
+      ]
+    },
+    {
+      "id": "dpl_5gZ4RBXi7K7ZrCS4perxozFrJk4c",
+      "url": "copiloto-produto-mpq52wyb7-wayne-enterprise3.vercel.app",
+      "state": "ERROR",
+      "summaries": [
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "rice_missing_inputs",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 3498,
+          "publicationMs": 3498,
+          "providerCalls": 2,
+          "revisions": 0,
+          "audit": [
+            {
+              "attempt": 0,
+              "supported": true,
+              "issueCount": 0,
+              "issueTypes": []
+            }
+          ],
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill",
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "missingInputs": true,
+            "noNumericRanking": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "positioning_missing_competitor",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 2005,
+          "publicationMs": 2005,
+          "providerCalls": 2,
+          "revisions": 0,
+          "audit": [
+            {
+              "attempt": 0,
+              "supported": true,
+              "issueCount": 0,
+              "issueTypes": []
+            }
+          ],
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "asksContext": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "prd_sparse_context",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 2711,
+          "publicationMs": 2711,
+          "providerCalls": 2,
+          "revisions": 0,
+          "audit": [
+            {
+              "attempt": 0,
+              "supported": true,
+              "issueCount": 0,
+              "issueTypes": []
+            }
+          ],
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill",
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "contextBeforePRD": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "ai_feature_launch",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 2873,
+          "publicationMs": 2872,
+          "providerCalls": 2,
+          "revisions": 0,
+          "audit": [
+            {
+              "attempt": 0,
+              "supported": true,
+              "issueCount": 0,
+              "issueTypes": []
+            }
+          ],
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "qualityAndEconomics": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "simple_reversible_decision",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 2121,
+          "publicationMs": 2121,
+          "providerCalls": 2,
+          "revisions": 0,
+          "audit": [
+            {
+              "attempt": 0,
+              "supported": true,
+              "issueCount": 0,
+              "issueTypes": []
+            }
+          ],
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "proportionateDecision": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "decision_tradeoff",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": false,
+          "passed": false,
+          "errorType": "RateLimitError",
+          "kind": "rate_limit",
+          "status": 429
+        },
+        {
+          "type": "LIVE_EVAL_SUMMARY",
+          "completed": 5,
+          "passed": 5,
+          "total": 15
+        }
+      ]
+    },
+    {
+      "id": "dpl_F3ibn3rs5ktzN7TK1UVPuesCApJP",
+      "url": "copiloto-produto-d619sn5tf-wayne-enterprise3.vercel.app",
+      "state": "CANCELED",
+      "reason": "optimized_at_user_request",
+      "summaries": [
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "rice_missing_inputs",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 6733,
+          "publicationMs": 6733,
+          "providerCalls": 2,
+          "revisions": 0,
+          "audit": [
+            {
+              "attempt": 0,
+              "supported": true,
+              "issueCount": 0,
+              "issueTypes": []
+            }
+          ],
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill",
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "missingInputs": true,
+            "noNumericRanking": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "positioning_missing_competitor",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 11905,
+          "publicationMs": 11905,
+          "providerCalls": 2,
+          "revisions": 0,
+          "audit": [
+            {
+              "attempt": 0,
+              "supported": true,
+              "issueCount": 0,
+              "issueTypes": []
+            }
+          ],
+          "historyMessages": 0,
+          "sourceKinds": [
+            "skill"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "asksContext": true
+          },
+          "passed": true
+        },
+        {
+          "type": "LIVE_EVAL",
+          "caseId": "prd_sparse_context",
+          "provider": "gemini-3.5-flash-lite",
+          "completed": true,
+          "durationMs": 12010,
+          "publicationMs": 12010,
+          "providerCalls": 2,
+          "revisions": 0,
+          "audit": [
+            {
+              "attempt": 0,
+              "supported": true,
+              "issueCount": 0,
+              "issueTypes": []
+            }
+          ],
+          "historyMessages": 0,
+          "sourceKinds": [
+            "book"
+          ],
+          "checks": {
+            "nonEmpty": true,
+            "grounded": true,
+            "contextBeforePRD": true
+          },
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Validation reduced from 23 scenarios to 6 at user request.",
+    "Four actual route requests in one conversation; two targeted semantic checks.",
+    "Rate-limit spacing is confined to evaluation scripts.",
+    "No prompts, model responses or credentials stored.",
+    "Semantic checking remains probabilistic."
+  ]
+}

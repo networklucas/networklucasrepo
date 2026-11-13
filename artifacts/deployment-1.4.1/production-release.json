@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-11",
+  "version": "1.4.1",
+  "url": "https://copiloto-produto.vercel.app/",
+  "deploymentId": "dpl_56ayC69SLwX8hVFZTdZHSF8QUETg",
+  "state": "READY",
+  "target": "production",
+  "unitTests": 73,
+  "browserHistoryChecks": 12,
+  "protection": "Vercel Authentication: all deployments",
+  "history": "Projects and loose chats persisted in browser IndexedDB"
+}

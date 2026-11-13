@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "bookCount": 6,
+      "pages": 2266,
+      "version": "1.2",
+      "newBookSearch": true,
+      "footerVisible": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "bookCount": 6,
+      "pages": 2266,
+      "version": "1.2",
+      "newBookSearch": true,
+      "footerVisible": true,
+      "passed": true
+    }
+  ],
+  "liveModelCalls": 0
+}

@@ -1,0 +1,2 @@
+// Runs before first paint; storage contains only validated display preferences.
+export const appearanceBootstrap=`try{const p=JSON.parse(localStorage.getItem('bussola:appearance:v1')||'{}');document.documentElement.dataset.theme=['system','light','dark'].includes(p.theme)?p.theme:'dark';document.documentElement.dataset.textSize=p.textSize==='large'?'large':'standard';}catch{document.documentElement.dataset.theme='dark';}`;

@@ -1,0 +1,3 @@
+{
+  "buildCommand": "npm run typecheck && npm run check:release && npm run build"
+}

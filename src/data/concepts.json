@@ -1,0 +1,648 @@
+[
+  {
+    "id": "lno",
+    "title": "LNO: onde investir energia",
+    "category": "Estratégia",
+    "reference": "strategic-build.md",
+    "summary": "Classifique o trabalho pelo efeito que ele acumula: alavancagem, manutenção ou sobrecarga.",
+    "when": "Quando o time trabalha muito e o resultado não acompanha.",
+    "steps": [
+      "Defina o resultado desejado",
+      "Identifique trabalho que desbloqueia valor recorrente",
+      "Compare o custo de oportunidade"
+    ],
+    "limit": "A classificação depende do contexto; uma atividade operacional pode ser indispensável.",
+    "example": "Exemplo ilustrativo: automatizar uma conciliação recorrente pode liberar o time para resolver problemas de clientes.",
+    "keywords": [
+      "lno",
+      "alavancagem",
+      "overhead",
+      "leverage",
+      "esforço"
+    ]
+  },
+  {
+    "id": "produto-outcome",
+    "title": "De entregas a resultados",
+    "category": "Estratégia",
+    "reference": "strategic-pm.md",
+    "summary": "Organize o time em torno de problemas e resultados, além de listas de funcionalidades.",
+    "when": "Quando o roadmap está cheio, mas o impacto não está claro.",
+    "steps": [
+      "Nomeie o problema do cliente",
+      "Conecte uma métrica ao resultado",
+      "Dê ao time espaço para descobrir a solução"
+    ],
+    "limit": "Métricas isoladas podem esconder efeitos colaterais.",
+    "example": "Exemplo ilustrativo: trocar “entregar dashboard” por “reduzir o tempo de decisão do gestor”.",
+    "keywords": [
+      "outcome",
+      "output",
+      "cagan",
+      "inspirado",
+      "fabrica",
+      "features"
+    ]
+  },
+  {
+    "id": "jtbd",
+    "title": "Jobs to Be Done",
+    "category": "Discovery",
+    "reference": "jtbd-building.md",
+    "summary": "Entenda o progresso que a pessoa procura em uma circunstância específica.",
+    "when": "Ao investigar necessidades e alternativas reais do cliente.",
+    "steps": [
+      "Reconstitua uma decisão recente",
+      "Explore forças de mudança e hábitos",
+      "Descreva circunstância, progresso e alternativa"
+    ],
+    "limit": "Não reduza o job a uma preferência genérica ou pedido de feature.",
+    "example": "Exemplo ilustrativo: o cliente contrata um relatório para explicar o mês ao diretor, não para baixar um PDF.",
+    "keywords": [
+      "jtbd",
+      "job",
+      "necessidade",
+      "entrevista",
+      "motivação"
+    ]
+  },
+  {
+    "id": "discovery",
+    "title": "Discovery contínuo",
+    "category": "Discovery",
+    "reference": "continuous-discovery.md",
+    "summary": "Conecte contato recorrente com clientes, oportunidades e testes de premissas.",
+    "when": "Antes e durante a construção de soluções para um resultado.",
+    "steps": [
+      "Defina um resultado",
+      "Mapeie oportunidades observadas",
+      "Teste a premissa mais arriscada com o menor custo"
+    ],
+    "limit": "Entrevistas geram aprendizado; não comprovam sozinhas demanda ou causalidade.",
+    "example": "Exemplo ilustrativo: investigar faltas antes de financiar um chatbot de agendamentos.",
+    "keywords": [
+      "discovery",
+      "descoberta",
+      "premissa",
+      "hipótese",
+      "ost",
+      "teresa",
+      "torres"
+    ]
+  },
+  {
+    "id": "design",
+    "title": "Qualidade de design",
+    "category": "Design",
+    "reference": "design-first-dev.md",
+    "summary": "Avalie clareza, consistência e facilidade de uso na experiência completa.",
+    "when": "Ao revisar fluxos, interfaces e padrões de interação.",
+    "steps": [
+      "Observe uma tarefa real",
+      "Identifique atritos e feedback ausente",
+      "Teste a mudança com usuários"
+    ],
+    "limit": "Acabamento visual não substitui utilidade e compreensão.",
+    "example": "Exemplo ilustrativo: tornar a confirmação de um pagamento inequívoca antes de redesenhar a tela.",
+    "keywords": [
+      "design",
+      "norman",
+      "usabilidade",
+      "affordance",
+      "feedback",
+      "interface"
+    ]
+  },
+  {
+    "id": "craft",
+    "title": "Qualidade e velocidade",
+    "category": "Entrega",
+    "reference": "quality-speed.md",
+    "summary": "Escolha onde o cuidado adicional muda o resultado e onde uma solução simples basta.",
+    "when": "Ao negociar escopo, refatoração e prazo.",
+    "steps": [
+      "Identifique o risco de qualidade",
+      "Separe detalhes essenciais de refinamentos",
+      "Defina a barra mínima de entrega"
+    ],
+    "limit": "Nem toda melhoria técnica ou visual tem o mesmo retorno.",
+    "example": "Exemplo ilustrativo: exigir robustez no pagamento e simplificar uma configuração pouco usada.",
+    "keywords": [
+      "craft",
+      "qualidade",
+      "velocidade",
+      "refatoração",
+      "prazo"
+    ]
+  },
+  {
+    "id": "launch-decision",
+    "title": "Lançar ou iterar",
+    "category": "Entrega",
+    "reference": "ship-decisions.md",
+    "summary": "Considere reversibilidade, alcance e custo do erro para decidir quando lançar.",
+    "when": "Quando o time hesita entre aprender em produção e aperfeiçoar.",
+    "steps": [
+      "Classifique a reversibilidade",
+      "Limite a exposição inicial",
+      "Defina condição de revisão"
+    ],
+    "limit": "Mudanças difíceis de desfazer exigem evidência e cuidado maiores.",
+    "example": "Exemplo ilustrativo: corrigir um rótulo confuso com monitoramento e possibilidade de reversão.",
+    "keywords": [
+      "lançar",
+      "iterar",
+      "reversível",
+      "porta",
+      "decisão",
+      "botão"
+    ]
+  },
+  {
+    "id": "growth",
+    "title": "Loops de crescimento e retenção",
+    "category": "Métricas",
+    "reference": "growth-embedded.md",
+    "summary": "Entenda como o uso gera valor e cria condições para novos ciclos de uso.",
+    "when": "Ao estudar aquisição, indicação e retenção.",
+    "steps": [
+      "Desenhe o ciclo de valor",
+      "Localize a perda de usuários",
+      "Teste o elo mais fraco"
+    ],
+    "limit": "Aquisição pode ampliar um produto que ainda não retém.",
+    "example": "Exemplo ilustrativo: melhorar o primeiro resultado útil antes de oferecer recompensa por convites.",
+    "keywords": [
+      "growth",
+      "loop",
+      "retenção",
+      "aquisição",
+      "referral",
+      "crescimento"
+    ]
+  },
+  {
+    "id": "experiments",
+    "title": "Experimentos e guardrails",
+    "category": "Métricas",
+    "reference": "exp-driven-dev.md",
+    "summary": "Compare uma mudança a uma alternativa com métricas e critérios definidos antes.",
+    "when": "Quando existe incerteza sobre o efeito de uma solução.",
+    "steps": [
+      "Declare a hipótese e métrica principal",
+      "Defina proteção contra danos",
+      "Escolha desenho e amostra adequados"
+    ],
+    "limit": "Antes e depois sem controle pode refletir mudanças externas.",
+    "example": "Exemplo ilustrativo: testar um onboarding acompanhando ativação e chamados ao suporte.",
+    "keywords": [
+      "experimento",
+      "teste",
+      "ab",
+      "estatística",
+      "causalidade",
+      "guardrail"
+    ]
+  },
+  {
+    "id": "ai-product",
+    "title": "Produto de IA e evals",
+    "category": "Produto de IA",
+    "reference": "ai-product-patterns.md",
+    "summary": "Defina qualidade observável, experiência, latência e economia da solução.",
+    "when": "Ao decidir se e como uma funcionalidade deve usar IA.",
+    "steps": [
+      "Reúna casos reais e falhas críticas",
+      "Crie critérios de avaliação",
+      "Compare qualidade, custo e latência"
+    ],
+    "limit": "Uma demonstração convincente não representa confiabilidade em todos os casos.",
+    "example": "Exemplo ilustrativo: avaliar respostas erradas de um copiloto antes de expandir seu público.",
+    "keywords": [
+      "ia",
+      "ai",
+      "eval",
+      "avaliação",
+      "latência",
+      "custo",
+      "copiloto"
+    ]
+  },
+  {
+    "id": "ai-startup",
+    "title": "Experiência nativa de IA",
+    "category": "Produto de IA",
+    "reference": "ai-startup-building.md",
+    "summary": "Desenhe interações que aproveitam IA com controle, feedback e recuperação.",
+    "when": "Ao estruturar uma experiência ou produto baseado em modelos.",
+    "steps": [
+      "Escolha uma tarefa valiosa",
+      "Torne limites e ações compreensíveis",
+      "Aprenda com exemplos de falha"
+    ],
+    "limit": "Adicionar um chat não resolve automaticamente o problema do usuário.",
+    "example": "Exemplo ilustrativo: permitir revisar e desfazer uma sugestão antes de aplicá-la.",
+    "keywords": [
+      "ia",
+      "prompt",
+      "ux",
+      "startup",
+      "inteligência",
+      "artificial"
+    ]
+  },
+  {
+    "id": "priorizacao",
+    "title": "Priorização: RICE, ICE e Kano",
+    "category": "Estratégia",
+    "reference": "prioritization-craft.md",
+    "summary": "Escolha um método coerente com a decisão e com a evidência disponível.",
+    "when": "Ao comparar iniciativas que disputam capacidade.",
+    "steps": [
+      "Defina objetivo e opções",
+      "Reúna alcance, impacto, evidência e esforço para RICE",
+      "Compare a sensibilidade e explicite renúncias"
+    ],
+    "limit": "Não calcule RICE com confiança desconhecida nem combine escalas incompatíveis.",
+    "example": "Exemplo ilustrativo: pedir alcance e esforço antes de ordenar login social, PDF e dashboard.",
+    "keywords": [
+      "rice",
+      "ice",
+      "kano",
+      "backlog",
+      "priorização",
+      "prioridade",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "incerteza",
+    "title": "Decisões sob incerteza",
+    "category": "Estratégia",
+    "reference": "decision-frameworks.md",
+    "summary": "Separe qualidade da decisão, evidência disponível e resultado observado.",
+    "when": "Diante de apostas, riscos e alternativas incertas.",
+    "steps": [
+      "Liste opções e suposições",
+      "Faça um pré-mortem",
+      "Defina sinais para revisar a escolha"
+    ],
+    "limit": "Probabilidades sem evidência devem ser tratadas como hipóteses.",
+    "example": "Exemplo ilustrativo: testar um segmento antes de comprometer toda a estratégia comercial.",
+    "keywords": [
+      "incerteza",
+      "duke",
+      "premortem",
+      "risco",
+      "decisão",
+      "aposta"
+    ]
+  },
+  {
+    "id": "strategy",
+    "title": "Onde jogar e como vencer",
+    "category": "Estratégia",
+    "reference": "strategy-frameworks.md",
+    "summary": "Faça escolhas explícitas sobre cliente, problema, vantagem e capacidades.",
+    "when": "Ao definir direção e foco de produto.",
+    "steps": [
+      "Escolha público e arena",
+      "Explique a vantagem buscada",
+      "Identifique capacidades e renúncias"
+    ],
+    "limit": "Uma lista de ambições sem escolhas não constitui estratégia.",
+    "example": "Exemplo ilustrativo: atender pequenas operações locais antes de competir por grandes empresas.",
+    "keywords": [
+      "estratégia",
+      "mercado",
+      "vantagem",
+      "playing",
+      "win",
+      "posicionamento",
+      "segmento"
+    ]
+  },
+  {
+    "id": "okr",
+    "title": "OKRs",
+    "category": "Métricas",
+    "reference": "okr-frameworks.md",
+    "summary": "Conecte um objetivo claro a resultados-chave que mostram mudança observável.",
+    "when": "Ao alinhar foco e aprendizado do trimestre.",
+    "steps": [
+      "Declare o objetivo",
+      "Escolha resultados mensuráveis",
+      "Separe iniciativas de resultados"
+    ],
+    "limit": "Metas sem linha de base e capacidade podem incentivar comportamento ruim.",
+    "example": "Exemplo ilustrativo: acompanhar a conclusão de uma tarefa central em vez de contar telas entregues.",
+    "keywords": [
+      "okr",
+      "objetivo",
+      "meta",
+      "trimestre",
+      "resultado",
+      "chave"
+    ]
+  },
+  {
+    "id": "exec",
+    "title": "Comunicação executiva",
+    "category": "Comunicação",
+    "reference": "exec-comms.md",
+    "summary": "Estruture contexto, decisão, evidência e pedido para quem precisa decidir.",
+    "when": "Ao preparar memo, atualização executiva ou discussão com o board.",
+    "steps": [
+      "Comece pela decisão necessária",
+      "Selecione evidências relevantes",
+      "Explicite riscos e o pedido"
+    ],
+    "limit": "Mais informação não garante uma mensagem mais clara.",
+    "example": "Exemplo ilustrativo: pedir aprovação de um piloto com objetivo, custo e critério de continuidade.",
+    "keywords": [
+      "memo",
+      "executivo",
+      "board",
+      "scqa",
+      "amazon",
+      "comunicação"
+    ]
+  },
+  {
+    "id": "story",
+    "title": "Narrativa estratégica",
+    "category": "Comunicação",
+    "reference": "strategic-storytelling.md",
+    "summary": "Conecte mudança no contexto, tensão e proposta de valor em uma história coerente.",
+    "when": "Ao apresentar uma direção, visão ou proposta.",
+    "steps": [
+      "Explique o que mudou",
+      "Mostre o problema com evidências",
+      "Conecte a escolha ao valor futuro"
+    ],
+    "limit": "Narrativas não devem transformar hipóteses em fatos.",
+    "example": "Exemplo ilustrativo: explicar por que uma mudança de hábito exige repensar o onboarding.",
+    "keywords": [
+      "narrativa",
+      "storytelling",
+      "raskin",
+      "pitch",
+      "história"
+    ]
+  },
+  {
+    "id": "position",
+    "title": "Posicionamento",
+    "category": "Comunicação",
+    "reference": "positioning-craft.md",
+    "summary": "Defina para quem o produto oferece valor distinto em relação às alternativas.",
+    "when": "Ao revisar proposta de valor e categoria.",
+    "steps": [
+      "Identifique a alternativa usada hoje",
+      "Conecte atributos a valor",
+      "Escolha segmento e contexto de comparação"
+    ],
+    "limit": "Sem conhecer a alternativa competitiva, o posicionamento continua provisório.",
+    "example": "Exemplo ilustrativo: comparar uma ferramenta de gestão com planilhas, e não apenas outros softwares.",
+    "keywords": [
+      "posicionamento",
+      "dunford",
+      "categoria",
+      "concorrente",
+      "valor",
+      "alternativa"
+    ]
+  },
+  {
+    "id": "speaking",
+    "title": "Comunicação de improviso",
+    "category": "Comunicação",
+    "reference": "confident-speaking.md",
+    "summary": "Organize uma resposta clara em situação, importância e próximo passo.",
+    "when": "Em reuniões, apresentações e perguntas inesperadas.",
+    "steps": [
+      "Diga o ponto principal",
+      "Explique por que importa",
+      "Feche com uma ação ou pergunta"
+    ],
+    "limit": "Estrutura ajuda a clareza; não substitui conhecimento do assunto.",
+    "example": "Exemplo ilustrativo: responder a uma cobrança com fato, consequência e proposta de encaminhamento.",
+    "keywords": [
+      "fala",
+      "apresentação",
+      "improviso",
+      "reunião",
+      "comunicação",
+      "abrahams"
+    ]
+  },
+  {
+    "id": "gtm",
+    "title": "Lançamento e go-to-market",
+    "category": "Entrega",
+    "reference": "launch-execution.md",
+    "summary": "Coordene público, mensagem, canais e preparação operacional de um lançamento.",
+    "when": "Ao levar uma solução validada ao mercado.",
+    "steps": [
+      "Escolha público e mensagem",
+      "Prepare operação e suporte",
+      "Defina sinais de adoção e revisão"
+    ],
+    "limit": "O lançamento não comprova product-market fit.",
+    "example": "Exemplo ilustrativo: iniciar com um segmento e materiais orientados à tarefa resolvida.",
+    "keywords": [
+      "lançamento",
+      "gtm",
+      "go",
+      "market",
+      "canal",
+      "campanha"
+    ]
+  },
+  {
+    "id": "metrics",
+    "title": "North Star e métricas de produto",
+    "category": "Métricas",
+    "reference": "metrics-frameworks.md",
+    "summary": "Escolha métricas que representam valor entregue e ajudam a explicar seus motores.",
+    "when": "Ao criar um sistema de acompanhamento de produto.",
+    "steps": [
+      "Defina o valor para o usuário",
+      "Escolha métrica e denominador",
+      "Associe indicadores líderes e proteções"
+    ],
+    "limit": "Uma North Star isolada pode esconder qualidade e sustentabilidade.",
+    "example": "Exemplo ilustrativo: acompanhar tarefas concluídas com sucesso, além de acessos ao aplicativo.",
+    "keywords": [
+      "north",
+      "star",
+      "aarrr",
+      "métrica",
+      "indicador",
+      "funil",
+      "conversão"
+    ]
+  },
+  {
+    "id": "pmf",
+    "title": "PMF e sistema de feedback",
+    "category": "Discovery",
+    "reference": "user-feedback-system.md",
+    "summary": "Combine comportamento, relatos e contexto para entender valor e adequação ao mercado.",
+    "when": "Ao avaliar satisfação, retenção e feedback recorrente.",
+    "steps": [
+      "Segmente a base",
+      "Reúna comportamento e entrevistas",
+      "Feche o ciclo de aprendizado"
+    ],
+    "limit": "NPS e pesquisas isoladas não demonstram PMF.",
+    "example": "Exemplo ilustrativo: investigar quem permanece usando o produto e por qual benefício.",
+    "keywords": [
+      "pmf",
+      "nps",
+      "feedback",
+      "pesquisa",
+      "satisfação",
+      "superhuman"
+    ]
+  },
+  {
+    "id": "influence",
+    "title": "Influência sem autoridade",
+    "category": "Pessoas",
+    "reference": "influence-craft.md",
+    "summary": "Construa alinhamento entendendo interesses, incentivos e poder de decisão.",
+    "when": "Ao buscar apoio de stakeholders e lideranças.",
+    "steps": [
+      "Mapeie interesses e decisões",
+      "Construa apoio antes da reunião",
+      "Faça um pedido claro"
+    ],
+    "limit": "Alinhamento não deve ocultar conflitos reais ou compromissos.",
+    "example": "Exemplo ilustrativo: discutir riscos com comercial e operação antes de propor uma mudança de prazo.",
+    "keywords": [
+      "stakeholder",
+      "buy",
+      "in",
+      "influência",
+      "política",
+      "pfeffer",
+      "liderança"
+    ]
+  },
+  {
+    "id": "feedback",
+    "title": "Feedback e conversas difíceis",
+    "category": "Pessoas",
+    "reference": "stakeholder-craft.md",
+    "summary": "Combine cuidado com a pessoa e clareza sobre comportamentos e impactos.",
+    "when": "Ao dar feedback ou tratar expectativas desalinhadas.",
+    "steps": [
+      "Descreva um comportamento observado",
+      "Explique o impacto",
+      "Ouça e combine uma ação concreta"
+    ],
+    "limit": "Rótulos e julgamentos de intenção prejudicam a conversa.",
+    "example": "Exemplo ilustrativo: tratar interrupções em reuniões usando episódios específicos.",
+    "keywords": [
+      "radical",
+      "candor",
+      "feedback",
+      "kim",
+      "scott",
+      "conversa",
+      "difícil"
+    ]
+  },
+  {
+    "id": "conflict",
+    "title": "Conflitos no trabalho",
+    "category": "Pessoas",
+    "reference": "workplace-navigation.md",
+    "summary": "Entenda o conflito e escolha uma ação proporcional à situação e ao poder envolvido.",
+    "when": "Quando uma relação está bloqueando o trabalho.",
+    "steps": [
+      "Separe fatos de interpretações",
+      "Alinhe expectativas e limites",
+      "Defina quando envolver liderança"
+    ],
+    "limit": "Nem todo conflito é resolvido apenas com uma conversa individual.",
+    "example": "Exemplo ilustrativo: registrar dependências e acordos antes de escalar um bloqueio recorrente.",
+    "keywords": [
+      "conflito",
+      "colega",
+      "bloqueio",
+      "tóxico",
+      "trabalho"
+    ]
+  },
+  {
+    "id": "culture",
+    "title": "Cultura e rituais de produto",
+    "category": "Pessoas",
+    "reference": "culture-craft.md",
+    "summary": "Transforme princípios de trabalho em práticas observáveis que ajudam decisões.",
+    "when": "Ao melhorar colaboração e padrões do time.",
+    "steps": [
+      "Escolha o comportamento desejado",
+      "Revise os rituais existentes",
+      "Observe se ajudam o resultado"
+    ],
+    "limit": "Mais cerimônias podem aumentar custo sem melhorar colaboração.",
+    "example": "Exemplo ilustrativo: trocar uma reunião de status por uma revisão de decisões e aprendizados.",
+    "keywords": [
+      "cultura",
+      "ritual",
+      "time",
+      "excelência",
+      "liderança",
+      "equipe"
+    ]
+  },
+  {
+    "id": "career",
+    "title": "Carreira de PM",
+    "category": "Carreira",
+    "reference": "career-growth.md",
+    "summary": "Identifique capacidades e evidências de impacto necessárias ao próximo passo.",
+    "when": "Ao preparar desenvolvimento, promoção ou transição.",
+    "steps": [
+      "Defina a direção desejada",
+      "Reúna evidências e lacunas",
+      "Combine oportunidades e feedback"
+    ],
+    "limit": "Critérios variam por empresa; promoção não depende só de desempenho individual.",
+    "example": "Exemplo ilustrativo: escolher uma oportunidade para demonstrar influência e resultado de produto.",
+    "keywords": [
+      "carreira",
+      "promoção",
+      "ic",
+      "gestão",
+      "pm",
+      "desenvolvimento"
+    ]
+  },
+  {
+    "id": "mvp",
+    "title": "Escopo de MVP",
+    "category": "Entrega",
+    "reference": "strategic-build.md",
+    "summary": "Escolha a menor experiência capaz de testar uma hipótese relevante com valor real.",
+    "when": "Ao transformar uma ideia em um primeiro teste ou lançamento.",
+    "steps": [
+      "Declare a hipótese",
+      "Escolha a tarefa essencial",
+      "Corte o que não contribui ao aprendizado"
+    ],
+    "limit": "Um produto incompleto não é necessariamente um experimento útil.",
+    "example": "Exemplo ilustrativo: executar lembretes manualmente antes de construir uma automação completa.",
+    "keywords": [
+      "mvp",
+      "protótipo",
+      "escopo",
+      "mínimo",
+      "hipótese",
+      "validação"
+    ]
+  }
+]

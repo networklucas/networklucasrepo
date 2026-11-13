@@ -1,0 +1,409 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "standard",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "large",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "large",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "standard",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "large",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "light",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "large",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 720,
+      "theme": "dark",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "standard",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "large",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "large",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "standard",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "standard",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "large",
+      "view": "Projetos",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "large",
+      "view": "Copiloto",
+      "overflow": false,
+      "issues": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "size": "large",
+      "view": "Repertório",
+      "overflow": false,
+      "issues": []
+    }
+  ],
+  "flows": [
+    "three journeys",
+    "temporary PDF excluded and explicit attachment persistence",
+    "print selected document",
+    "reload and resume",
+    "reviewable context",
+    "chat transport fixture",
+    "decision confirmation and edit invalidation",
+    "markdown export",
+    "backup round trip and duplicate copies",
+    "invalid import",
+    "new session with summary",
+    "editorial source API",
+    "theme persistence",
+    "quota failure backup",
+    "concurrent-tab conflict",
+    "delete all"
+  ],
+  "errors": [],
+  "externalModelCalls": 0
+}

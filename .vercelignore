@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.env*
+test-results
+tests
+artifacts
+private-data/corpus.json
+private-data/live-eval-report.json
+private-data/extraction-report.json
+*.tsbuildinfo

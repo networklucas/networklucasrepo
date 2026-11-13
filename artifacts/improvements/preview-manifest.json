@@ -1,0 +1,449 @@
+{
+  "project": "copiloto-produto",
+  "target": "preview",
+  "protection": "Vercel Authentication: all deployments",
+  "promoteToProduction": false,
+  "checks": [
+    "typecheck",
+    "four live route scenarios",
+    "two live verifier scenarios",
+    "build"
+  ],
+  "files": [
+    {
+      "file": "src/app/accessibility.css",
+      "sha": "3e30f670cf17fb26a0f2d9021613a8a40e8896cb",
+      "size": 6624
+    },
+    {
+      "file": "src/app/api/chat/route.ts",
+      "sha": "be2ba1d7f831a600c29fc8ac5c72cdd90b9815bf",
+      "size": 6901
+    },
+    {
+      "file": "src/app/api/concepts/route.ts",
+      "sha": "9f28250fec99a1fc53c573c15e6412f0c1358feb",
+      "size": 104
+    },
+    {
+      "file": "src/app/api/library/search/route.ts",
+      "sha": "397f9c013439904f2f768cb3ba2f6aeec5ed96a6",
+      "size": 469
+    },
+    {
+      "file": "src/app/api/provider-status/route.ts",
+      "sha": "390d554d6b135351e2ddabdb8c8e8ed68776d78d",
+      "size": 649
+    },
+    {
+      "file": "src/app/appearance.tsx",
+      "sha": "da8e7e11e3b6ae531692f1443242d167abd8eeb1",
+      "size": 1353
+    },
+    {
+      "file": "src/app/detail-dialog.tsx",
+      "sha": "100cbfa40188d551dd4cd176d5c66c65c6ee9da8",
+      "size": 1385
+    },
+    {
+      "file": "src/app/globals.css",
+      "sha": "aedc69bb0cfec1e6fabdbc8464103711acbbf83c",
+      "size": 23978
+    },
+    {
+      "file": "src/app/icon.svg",
+      "sha": "07fb65120d73c7943969dafbda42f2cb8dbb6692",
+      "size": 292
+    },
+    {
+      "file": "src/app/layout.tsx",
+      "sha": "84b7b822a73e38854d15ba8ab27f3e58e205b873",
+      "size": 684
+    },
+    {
+      "file": "src/app/page.tsx",
+      "sha": "61740f5dfd5c4c821a251de408526d9a7bcc7c50",
+      "size": 23900
+    },
+    {
+      "file": "src/data/concepts.json",
+      "sha": "3135ad9ea19158475e599797e5a42c226392e8fe",
+      "size": 21780
+    },
+    {
+      "file": "src/lib/appearance-preferences.ts",
+      "sha": "23f515d805a570ffd32d44ca491b71a5f2641c4d",
+      "size": 384
+    },
+    {
+      "file": "src/lib/budget.ts",
+      "sha": "22a0e4c52193cbed5408c7000db971296e37285f",
+      "size": 2609
+    },
+    {
+      "file": "src/lib/chat-instructions.ts",
+      "sha": "58eb46ca297d31bc96c8f211a47dbd851e613a5c",
+      "size": 2670
+    },
+    {
+      "file": "src/lib/chat-schema.ts",
+      "sha": "4086cd426f66434e71da5dc6b69a7a9c8b8ebde4",
+      "size": 644
+    },
+    {
+      "file": "src/lib/concepts.ts",
+      "sha": "5ba0c1adf0c952ea35d464c0bf2db74c6cae60e1",
+      "size": 124
+    },
+    {
+      "file": "src/lib/config.ts",
+      "sha": "98dd82b8de7d7bc4e6b3652d8ddf752595777332",
+      "size": 346
+    },
+    {
+      "file": "src/lib/context-selection.ts",
+      "sha": "237da3036e6f498f672f6683249e4533ca5debe5",
+      "size": 2645
+    },
+    {
+      "file": "src/lib/conversation.ts",
+      "sha": "20aa5f44929899be593702d5065d7cb8f6b6a4f6",
+      "size": 1504
+    },
+    {
+      "file": "src/lib/corpus.ts",
+      "sha": "d2196d1973fc4c1d9d41b8c17583ea9ed26c84b7",
+      "size": 1102
+    },
+    {
+      "file": "src/lib/deadline.ts",
+      "sha": "6f1de7009dae2737ca8168caaa367b8697aecfdd",
+      "size": 903
+    },
+    {
+      "file": "src/lib/grounding.ts",
+      "sha": "21bb55a346ae74e38e740fb321b9436288d58b2a",
+      "size": 5608
+    },
+    {
+      "file": "src/lib/orchestration.ts",
+      "sha": "11634dbd6ab2cd94362c4fab21677a41297da5b5",
+      "size": 1217
+    },
+    {
+      "file": "src/lib/pdf.ts",
+      "sha": "b28e2f7476033bdb1c7e4e7083c688eb2c57cb04",
+      "size": 1696
+    },
+    {
+      "file": "src/lib/provider-failure.ts",
+      "sha": "f936a6fafc2ae8d155eaa1605be5f0c64ffc063f",
+      "size": 3595
+    },
+    {
+      "file": "src/lib/provider-stream.ts",
+      "sha": "49c3850c7933a9971bf732fbf9c2d0155dfa8e0b",
+      "size": 1696
+    },
+    {
+      "file": "src/lib/providers.ts",
+      "sha": "0ac5f255380cb7dd331ba9ba0ade96976db45550",
+      "size": 3622
+    },
+    {
+      "file": "src/lib/retrieval.ts",
+      "sha": "16f3f3f77f3e9698c37167cc4cf6ce21a68e614b",
+      "size": 1230
+    },
+    {
+      "file": "src/lib/routing.ts",
+      "sha": "bd1724c697de186303a13ad371f1cfdaca9f21ff",
+      "size": 1636
+    },
+    {
+      "file": "src/lib/types.ts",
+      "sha": "ed6e327ed6015c3bc9b1138a2018897d7f93d27d",
+      "size": 974
+    },
+    {
+      "file": "src/styles.d.ts",
+      "sha": "d4b4ba2afc101c47a26597cf064b805fcb1692c0",
+      "size": 24
+    },
+    {
+      "file": "public/pdf.worker.min.mjs",
+      "sha": "a605348d3477d6057b6d75f4f51b0a1d26d695df",
+      "size": 1327591
+    },
+    {
+      "file": "scripts/check-chat-route.ts",
+      "sha": "7e977516c155523872784118b2ef2ad31b0bd3da",
+      "size": 6231
+    },
+    {
+      "file": "scripts/check-gemini-transport.mjs",
+      "sha": "8dc16ec01e38a4e8c8d67d62b1ef64673ac33ffe",
+      "size": 818
+    },
+    {
+      "file": "scripts/check-gemini.mjs",
+      "sha": "3fa9413e12f32ee6da5ab5a4842b161b23ec1ca4",
+      "size": 1111
+    },
+    {
+      "file": "scripts/copy-pdf-worker.mjs",
+      "sha": "5551ed2473f5d221a8fac0993c8941b74c835eb2",
+      "size": 192
+    },
+    {
+      "file": "scripts/diagnose-gemini.mjs",
+      "sha": "87a1d174b3a78e96a837cb4118dfa8855a6722cc",
+      "size": 2946
+    },
+    {
+      "file": "scripts/evaluate-live.ts",
+      "sha": "20680774af4b46c54b8527966bc0446e513d267a",
+      "size": 9814
+    },
+    {
+      "file": "scripts/evaluation-pacing.ts",
+      "sha": "a6dc0bb2d83e5ca32e48084221b1ab85325dece2",
+      "size": 414
+    },
+    {
+      "file": "scripts/index_books.py",
+      "sha": "6d19449ad5fbb4b01a4f31543dac9a4eedeb25e6",
+      "size": 4336
+    },
+    {
+      "file": "scripts/verify-improvements.cjs",
+      "sha": "753ff6c06a7fadabcb67e069e1a8a871fff6dca7",
+      "size": 13686
+    },
+    {
+      "file": "private-data/skill/.github/workflows/tests.yml",
+      "sha": "209413fab633fe1c565f99c3971ebc7f8afca906",
+      "size": 348
+    },
+    {
+      "file": "private-data/skill/CHANGELOG.md",
+      "sha": "6da51df4245f1951342cacf2ae02ddd5ce8c6a11",
+      "size": 590
+    },
+    {
+      "file": "private-data/skill/COMMERCIAL-LICENSE.md",
+      "sha": "b5e28f88a6714230f6490e0c6205f754ae040882",
+      "size": 1796
+    },
+    {
+      "file": "private-data/skill/evals/cases.json",
+      "sha": "d982a4f74ce47ef4151a6f7bbb0f3765782a58cc",
+      "size": 3811
+    },
+    {
+      "file": "private-data/skill/LICENSE.md",
+      "sha": "c436b918a8b4362193b8b2dd5f7f253b6d1282c4",
+      "size": 921
+    },
+    {
+      "file": "private-data/skill/README.md",
+      "sha": "b30d3e4fec89adc621a50676a58259ecd49641fa",
+      "size": 5633
+    },
+    {
+      "file": "private-data/skill/references/ai-product-patterns.md",
+      "sha": "0b692824b51f81e4f0a9a98b0f1b7395a2bb560b",
+      "size": 13962
+    },
+    {
+      "file": "private-data/skill/references/ai-startup-building.md",
+      "sha": "2c3253ce0554be04b7e74d8b5a4ddcefe53b62ab",
+      "size": 4330
+    },
+    {
+      "file": "private-data/skill/references/career-growth.md",
+      "sha": "d0d15126a528af78dfc1259445f3b97f9d763f04",
+      "size": 3020
+    },
+    {
+      "file": "private-data/skill/references/confident-speaking.md",
+      "sha": "0e9cab38235c71e867c8ed4aba68202bb7410e89",
+      "size": 2465
+    },
+    {
+      "file": "private-data/skill/references/continuous-discovery.md",
+      "sha": "9ae0f36e4df058830f5c5a5f9f90f3686b6a2e96",
+      "size": 14542
+    },
+    {
+      "file": "private-data/skill/references/culture-craft.md",
+      "sha": "d8efe882de75c84ac33b106520fe598d252f3c23",
+      "size": 2387
+    },
+    {
+      "file": "private-data/skill/references/decision-frameworks.md",
+      "sha": "51b4d3619e8ae022af2d6b81fab5cdd27cf89344",
+      "size": 2870
+    },
+    {
+      "file": "private-data/skill/references/design-first-dev.md",
+      "sha": "a6bcd1a907fc822caeb972a518374073efbde332",
+      "size": 13237
+    },
+    {
+      "file": "private-data/skill/references/exec-comms.md",
+      "sha": "282d5ff3a40e37fc006cf690b505829455a90549",
+      "size": 2770
+    },
+    {
+      "file": "private-data/skill/references/exp-driven-dev.md",
+      "sha": "39c90d518817c7eb05eac02d81d435f5987341dc",
+      "size": 10145
+    },
+    {
+      "file": "private-data/skill/references/growth-embedded.md",
+      "sha": "07db965d5804e66a25f5918272fa7c8b6590be80",
+      "size": 8006
+    },
+    {
+      "file": "private-data/skill/references/influence-craft.md",
+      "sha": "24bb89012b68e78522438fcbae624aa282dda29d",
+      "size": 2850
+    },
+    {
+      "file": "private-data/skill/references/jtbd-building.md",
+      "sha": "f9a204499d5cf140674466c7c360aab1c158dda1",
+      "size": 3490
+    },
+    {
+      "file": "private-data/skill/references/launch-execution.md",
+      "sha": "d956b353599d9b9a35b7991868f90ef3d4770877",
+      "size": 3047
+    },
+    {
+      "file": "private-data/skill/references/metrics-frameworks.md",
+      "sha": "c80d1a8653ac91a6b7d8095d5e7235c656461c94",
+      "size": 2722
+    },
+    {
+      "file": "private-data/skill/references/okr-frameworks.md",
+      "sha": "d8dc4d3148a54b9b60bb9a9b6f8129efdabb3e42",
+      "size": 2647
+    },
+    {
+      "file": "private-data/skill/references/positioning-craft.md",
+      "sha": "914f57094b2f911073a03ac8eeee3bde0585e480",
+      "size": 2877
+    },
+    {
+      "file": "private-data/skill/references/prioritization-craft.md",
+      "sha": "7461f53515e5b7ff212bcabb39c49f440723b4f9",
+      "size": 3406
+    },
+    {
+      "file": "private-data/skill/references/quality-speed.md",
+      "sha": "1b7bff37a128abeeeae945d685891ff62ced74d3",
+      "size": 2565
+    },
+    {
+      "file": "private-data/skill/references/ship-decisions.md",
+      "sha": "613e9b892442a21f28b7472908fde43333747b1d",
+      "size": 13408
+    },
+    {
+      "file": "private-data/skill/references/stakeholder-craft.md",
+      "sha": "04202e3be372864f46adf5a7e65aa5094b53c4b3",
+      "size": 2770
+    },
+    {
+      "file": "private-data/skill/references/strategic-build.md",
+      "sha": "59f593fdf858e8e44004b04b7a46f3e0550fd994",
+      "size": 12654
+    },
+    {
+      "file": "private-data/skill/references/strategic-pm.md",
+      "sha": "5675c1b6768c7add49850b3ca2ae954e10b23ca9",
+      "size": 2701
+    },
+    {
+      "file": "private-data/skill/references/strategic-storytelling.md",
+      "sha": "1613448391b8a6589707def6aede5e504b942dd4",
+      "size": 2808
+    },
+    {
+      "file": "private-data/skill/references/strategy-frameworks.md",
+      "sha": "9540fe47c35d0d67021dc494d2b8088952736a4b",
+      "size": 2553
+    },
+    {
+      "file": "private-data/skill/references/user-feedback-system.md",
+      "sha": "bd9ac691463c6098064a28b318149a56f58af3c9",
+      "size": 2538
+    },
+    {
+      "file": "private-data/skill/references/workplace-navigation.md",
+      "sha": "4bf96308f4d7a9b86121c41e03540a0f65bb25f6",
+      "size": 2696
+    },
+    {
+      "file": "private-data/skill/scripts/validate_skill.py",
+      "sha": "3fabc0b6357c3b538bb02e8a376e67224832ce9c",
+      "size": 2923
+    },
+    {
+      "file": "private-data/skill/SKILL.md",
+      "sha": "7bcb225d54350dbd4ea3900dc2fa0cc3e2219c83",
+      "size": 9558
+    },
+    {
+      "file": "private-data/skill/tests/test_skill_contract.py",
+      "sha": "34bf7a324449d0f9bc6fee0c35b15553f6e7e0ec",
+      "size": 1109
+    },
+    {
+      "file": "private-data/skill/VERSION",
+      "sha": "05e17b646a817240c206186f94f8f4c70974d5dc",
+      "size": 6
+    },
+    {
+      "file": "package.json",
+      "sha": "4b9d5fbbe1666f67be0a110d5719935f9d276a7c",
+      "size": 1238
+    },
+    {
+      "file": "package-lock.json",
+      "sha": "a6f6597cffca1b05e4574042286213a319423473",
+      "size": 147230
+    },
+    {
+      "file": "next.config.ts",
+      "sha": "991b742ef6387f63afd0599481880d9935f51977",
+      "size": 602
+    },
+    {
+      "file": "tsconfig.json",
+      "sha": "7d8fde78ca8915dc13d326b27cfb9a8aad0fdfcd",
+      "size": 553
+    },
+    {
+      "file": "next-env.d.ts",
+      "sha": "d3fc80b7fae627e01dce199d12132aa4fc32d773",
+      "size": 295
+    },
+    {
+      "file": "private-data/corpus.json.gz",
+      "sha": "bbfcb6cc097f5472243a0f0e475e47d5dbfca0b0",
+      "size": 1747310
+    }
+  ],
+  "status": "ready-validated",
+  "buildCommand": "npm run typecheck && npm run eval:smoke && npm run build",
+  "previewUrl": "https://copiloto-produto-7b8o9acrr-wayne-enterprise3.vercel.app",
+  "deploymentId": "dpl_H7GPWWJrvJQcPPvxrMEJ2prjPXX7",
+  "liveScenarios": {
+    "api": 4,
+    "verifier": 2,
+    "passed": 6
+  },
+  "productionUnchanged": true
+}
