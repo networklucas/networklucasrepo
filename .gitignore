@@ -3,7 +3,10 @@ node_modules/
 .vercel/
 .env*
 !.env.example
-private-data/
+private-data/books/
+private-data/corpus.json
+private-data/live-eval-report.json
+private-data/extraction-report.json
 test-results/
 *.tsbuildinfo
 
