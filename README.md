@@ -75,7 +75,7 @@ GEMINI_API_KEY contém somente a chave copiada do Google AI Studio, sem código 
 
 ## Recuperação de falhas do Gemini
 
-O modelo padrão foi ajustado para gemini-3.5-flash-lite após reproduzir HTTP 503 no 3.8 Flash. GEMINI_MODEL permite configurar outro modelo, mas confirme sua compatibilidade e disponibilidade antes. Não alteramos o plano de faturamento.
+`GEMINI_MODELS` controla a sequência, nesta ordem: `gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`, `gemini-2.5-flash-lite`, `gemini-3.8-flash`, `gemini-3.6-flash` e `gemini-3-flash-preview`. `GEMINI_MODEL` só é aceito como compatibilidade temporária para uma única escolha; deixe-o ausente em produção para que a sequência seja usada. `gemini-2.5-flash` está fora da sequência: a Interactions API retornou HTTP 404 e ele só poderá voltar após nova validação real. Não alteramos o plano de faturamento.
 
 O aplicativo distingue HTTP 429, HTTP 5xx, timeout e transmissão incompleta. Uma falha rápida de servidor pode ser repetida uma vez, antes de qualquer texto; nunca repete automaticamente uma resposta parcial ou um erro de cota. Prazos por tentativa: 30 segundos no modo rápido, 60 no aprofundado; limite global de 90 segundos. Logs incluem apenas categoria, status e duração.
 

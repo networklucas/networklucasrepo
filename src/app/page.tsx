@@ -23,7 +23,7 @@ import {ChatHistory} from './chat-history';
 import {conversationHistory,type HistoryEntry} from '@/lib/chat-history';
 type Tab='projects'|'chat'|'paths'|'repertoire'|'history';
 type Reply=SavedReply;
-type Status={gemini:{configured:boolean;model:string;configurationError?:string};openai:{enabled:boolean;available:boolean;model:string;dailyBudget:number;used:number|null;day:string}};
+type Status={gemini:{configured:boolean;model?:string;initialModel?:string;models:string[];configurationError?:string};openai:{enabled:boolean;available:boolean;model:string;dailyBudget:number;used:number|null;day:string}};
 export default function Home(){
  const [tab,setTab]=useState<Tab>('chat'),[mobile,setMobile]=useState(false),[mode,setMode]=useState<'quick'|'deep'>('quick'),[confidential,setConfidential]=useState(false);
  const [messages,setMessages]=useState<Reply[]>([]),[input,setInput]=useState(''),[busy,setBusy]=useState(false),[pdfBusy,setPdfBusy]=useState(false),[notice,setNotice]=useState(''),[status,setStatus]=useState<Status|null>(null);
@@ -110,7 +110,7 @@ export default function Home(){
   }catch(e){const stopped=abort.signal.aborted;update(m=>({...m,error:true,completed:false,sources:[],content:stopped?'Resposta interrompida.':(e as Error).message}));}
   finally{if(version===requestVersion.current){setBusy(false);ctrl.current=null;}fetch('/api/provider-status').then(r=>r.json()).then(setStatus).catch(()=>{});}
  }
- const activeModel=status?.openai.available?'GPT-6.1 Sol':status?.gemini.configured?status.gemini.model:'Conectar IA';
+ const activeModel=status?.openai.available?'GPT-6.1 Sol':status?.gemini.configured?status.gemini.initialModel||status.gemini.model||'Gemini':'Conectar IA';
  return <div className="app-shell">
   <a className="skip-link" href="#main-content">Pular para o conteúdo</a>
   {mobile&&<button className="sidebar-overlay" onClick={()=>setMobile(false)} aria-label="Fechar navegação"/>}

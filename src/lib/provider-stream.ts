@@ -1,5 +1,5 @@
 import type {GoogleGenAI} from '@google/genai';
-export class ProviderError extends Error {constructor(public code:string){super(code);}}
+export class ProviderError extends Error {constructor(public code:string,details:Record<string,unknown>={}){super(code);Object.assign(this,details);}}
 type Item<T>=T extends AsyncIterable<infer E>?E:never;
 export type GeminiEvent=Item<Awaited<ReturnType<GoogleGenAI['interactions']['create']>>>;
 
@@ -9,7 +9,7 @@ export async function consumeGeminiStream(stream:AsyncIterable<GeminiEvent>,sign
  for await(const event of stream){
   signal.throwIfAborted();lastEventType=event.event_type;
   if(event.event_type==='step.delta'&&event.delta.type==='text'&&event.delta.text){hasText=true;onText(event.delta.text);}
-  if(event.event_type==='error')throw new ProviderError(event.error?.code??'GEMINI_FAILED');
+  if(event.event_type==='error')throw new ProviderError(event.error?.code??'GEMINI_FAILED',event.error&&typeof event.error==='object'?event.error as Record<string,unknown>:{});
   if(event.event_type==='interaction.status_update'||event.event_type==='interaction.completed'){
    terminalStatus=event.event_type==='interaction.completed'?event.interaction.status:event.status;
    if(['incomplete','requires_continuation','budget_exceeded'].includes(terminalStatus))throw new ProviderError('OUTPUT_LIMIT');

@@ -29,7 +29,7 @@ export async function runOpenAI(o:RunOptions):Promise<Result>{
 }
 export async function runGemini(o:RunOptions):Promise<Result>{
  const models=geminiModels();
- const result=await rotateGemini({models,signal:o.signal,deadlineMs:o.deep?60000:30000,onModel:o.onModel,onReset:o.onReset,log:record=>console.info(JSON.stringify(record)),run:(model,remainingMs)=>runGeminiAttempt({...o,model,timeoutMs:remainingMs})});
+ const result=await rotateGemini({models,signal:o.signal,deadlineMs:o.deep?60000:30000,onModel:o.onModel,onReset:o.onReset,log:record=>console.info(JSON.stringify(record)),run:(model,remainingMs,reportDelta)=>runGeminiAttempt({...o,model,timeoutMs:remainingMs,onText:text=>{reportDelta();o.onText(text);}})});
  return result.value;
 }
 async function runGeminiAttempt(o:RunOptions&{model:string;timeoutMs:number}):Promise<Result>{
